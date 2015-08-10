@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>*markdown-output*</title>
+<title>Deep Learning Bitmaps to PCM, Audio fun with deep belief networks</title>
 
 </head>
 
@@ -16,6 +16,7 @@
 <ul>
 <li><a href="https://archive.org/details/DeepLearningBitmaptoPCM">Archive.org Repo</a></li>
 <li><a href="https://github.com/abramhindle/dbn-bitmap-to-pcm-blog-post">Github Repo of this post</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/">Directory of Files</a></li>
 </ul>
 
 <p>Can we learn from video frames to produce audio? Our training set can
@@ -65,18 +66,17 @@ that you are free to play with.</p>
 <ul>
 <li>armstrong-basic - This is a brain trained off of a video of John
 Armstrong et al. playing rock music with a theremin. See
-<a href="armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a>
+<a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a>
 or <a href="https://www.youtube.com/watch?v=PWvUetfc8Ss">youtube</a>.
 Network 4096 -> 1000 -> 735</li>
 <li>lines-small - lines for clarinet by Jon Osborne a local Edmonton
 animator. Network 4096 -> 1000 -> 735. See <a href="https://vimeo.com/33085567">vimeo</a></li>
-<li>osborne-combined-big - trained off of a larger compilation of Jon
-Osborne videos:
+<li>osborne-combined-big - trained off of a larger compilation of Jon Osborne videos:
 <ul>
 <li><a href="https://vimeo.com/132365424">Seeing a sound quickly on vimeo</a></li>
 <li><a href="https://vimeo.com/115228257">Pulse on vimeo</a></li>
 <li><a href="https://vimeo.com/113761092">Ode to Jimi</a></li>
-<li><a href="https://vimeo.com/33085567">Lines for Clarinet</a>    </li>
+<li><a href="https://vimeo.com/33085567">Lines for Clarinet</a>  </li>
 </ul></li>
 <li>seeing-a-sound-shallow trained from <a href="https://vimeo.com/132365424">Seeing a sound quickly</a></li>
 <li>KUNGFURY -- Trained on KUNG FURY the movie. 4096 -> 2000 -> 1500 ->
@@ -111,28 +111,28 @@ rendered examples.</p>
 
 <h2>Armstrong-basic</h2>
 
-<p>Trained on   <a href="armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a>   or <a href="https://www.youtube.com/watch?v=PWvUetfc8Ss">youtube</a>. This is A   complicated scene filmed from a camera, not a lot visual difference.  This I think leads to really blaring output for unseen animations.</p>
+<p>Trained on   <a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a>   or <a href="https://www.youtube.com/watch?v=PWvUetfc8Ss">youtube</a>. This is A   complicated scene filmed from a camera, not a lot visual difference.  This I think leads to really blaring output for unseen animations.</p>
 
 <p>For Alphabet conspiracy raw sounds awful, but the granular synthesis
 seems to work with the talking xray.</p>
 
 <ul>
-<li><a href="armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm">Raw</a></li>
-<li><a href="armstrong-basic-alphabet-conspiracy.mp4-granular
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm">Raw</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic-alphabet-conspiracy.mp4-granular
 deeplearn.mkv.webm">Granular</a></li>
 </ul>
 
 <p>Osborne's Etudes come out very loud but interesting:</p>
 
 <ul>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm">Raw</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">Granular</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm">Raw</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">Granular</a></li>
 </ul>
 
 <p>I like the on-time response seen in the hand animation Ode to Jimi:</p>
 
 <ul>
-<li><a href="armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">Raw</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">Raw</a></li>
 </ul>
 
 <h2>Kung Fury</h2>
@@ -142,26 +142,26 @@ deeplearn.mkv.webm">Granular</a></li>
 <p>A large dataset seems to produce more pleasant PCM output.</p>
 
 <ul>
-<li><a href="KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm">1392098818.mkv</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm">1392098818.mkv</a></li>
 </ul>
 
 <p>Some of the granular synthesis seems quite appropriate:</p>
 
-<p><a href="KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm">1392099724.mkv</a></p>
+<p><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm">1392099724.mkv</a></p>
 
 <p>20 second borys did not work so well:
-<a href="KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm">Raw</a></p>
+<a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm">Raw</a></p>
 
 <p>Human figures seem to have more effect on the sound</p>
 
 <ul>
-<li><a href="KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm">Raw</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm">Raw</a></li>
 </ul>
 
 <p>Fire sounds pretty good.</p>
 
 <ul>
-<li><a href="KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm">Fire</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm">Fire</a></li>
 </ul>
 
 <p>Kung Fury seems like a better sounding dataset / brain than others.
@@ -174,16 +174,16 @@ Perhaps more data and deeper networks are much better?</p>
 <p>Both do quite well trained on themselves:</p>
 
 <ul>
-<li><a href="lines/lines-osborne-lines.mp4-deeplearn.mkv.webm">lines</a></li>
-<li><a href="lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm">lines-small</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-lines.mp4-deeplearn.mkv.webm">lines</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm">lines-small</a></li>
 </ul>
 
 <p>But the smaller network seems to produce more interesting sound with
 Osborne's seeing sound:</p>
 
 <ul>
-<li><a href="lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines</a></li>
-<li><a href="lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines-small</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines-small</a></li>
 </ul>
 
 <p>Perhaps I need to ensure that I'm properly training my network given
@@ -196,20 +196,20 @@ of Jon Osborne. The results tend to sound a lot like the other
 networks.</p>
 
 <ul>
-<li><a href="osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm">Example</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm">Example</a></li>
 </ul>
 
 <p>Fire sounds pretty good.</p>
 
 <ul>
-<li><a href="osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm">Fire</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm">Fire</a></li>
 </ul>
 
 <p>For granular synthesis Etude 2 stands out:</p>
 
 <ul>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">Etude2</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm">Lines</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">Etude2</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm">Lines</a></li>
 </ul>
 
 <h2>ramshackletyping</h2>
@@ -219,8 +219,8 @@ networks.</p>
 <p>Here's some of the better tracks (less noise, still bad):</p>
 
 <ul>
-<li><a href="ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm">20secondBorys</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">Ode to Jimmie</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm">20secondBorys</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">Ode to Jimmie</a></li>
 </ul>
 
 <p>Essentially if you want really aggressive sounds, maybe train on less and overfit to the input?</p>
@@ -228,7 +228,7 @@ networks.</p>
 <p>Here's it overfitting to itself:</p>
 
 <ul>
-<li><a href="ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm">ramshackletyping</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm">ramshackletyping</a></li>
 </ul>
 
 <h2>Seeing a sound quickly</h2>
@@ -236,8 +236,8 @@ networks.</p>
 <p>One problem with training on this video is there isn't a lot of variation. It is very binary, on or off.</p>
 
 <ul>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">deep etude1</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">shallow etude1</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">deep etude1</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">shallow etude1</a></li>
 </ul>
 
 <p>There seems to be little differentiation between deep and shallow in this case.</p>
@@ -245,8 +245,8 @@ networks.</p>
 <p>The lines for clarinet video is similar to the seeing a sound quickly video and works quite well:</p>
 
 <ul>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm">deep lines</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm">shallow lines</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm">deep lines</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm">shallow lines</a></li>
 </ul>
 
 <h2>Discussion</h2>
@@ -320,30 +320,39 @@ to them :(</p>
 
 <p>These videos are (C) Jon Osborne -- assume similar rules to CC-BY-NC-ND</p>
 
-<p>Public domain images from Archive.org
-* 015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv
-* 114-tones.1397368837.20976-out.114-tones.wav.audio.mkv
-* 1408297309.27876-out.caffeine.wav.audio.mkv
-* 1408304868.8993-out.caffeine.wav.audio.mkv</p>
+<p>Public domain images from Archive.org</p>
+
+<ul>
+<li>015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv</li>
+<li>114-tones.1397368837.20976-out.114-tones.wav.audio.mkv</li>
+<li>1408297309.27876-out.caffeine.wav.audio.mkv</li>
+<li>1408304868.8993-out.caffeine.wav.audio.mkv</li>
+</ul>
 
 <p>Assume Public domain</p>
 
-<p>Abram's photos and images and video
-* 20secondBorys.mp4
-* belch-kitchen-sample.mp4
-* drone-sample.mp4 -- video of the Olm
-* govid3-oldsketch.mkv
-* MVI<em>9117.mov
-* osborne-seeing-sound.mp4
-* spikey-mouth-loop.mkv
-* VID</em>20130404<em>003435.mp4.1384674117.corpus.mkv
-* VID</em>20130531_132327.mp4.1384676233.corpus.mkv</p>
+<p>Abram's photos and images and video</p>
+
+<ul>
+<li>20secondBorys.mp4</li>
+<li>belch-kitchen-sample.mp4</li>
+<li>drone-sample.mp4 -- video of the Olm</li>
+<li>govid3-oldsketch.mkv</li>
+<li>MVI_9117.mov</li>
+<li>osborne-seeing-sound.mp4</li>
+<li>spikey-mouth-loop.mkv</li>
+<li>VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv</li>
+<li>VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv</li>
+</ul>
 
 <p>Assume CC-BY 4.0 Abram Hindle</p>
 
-<p>Public domain from Archive.org
-* alphabet-conspiracy.mp4 -- Alphabet Conspiracy
-* Bimbo's<em>Initiation</em>1931.mp4 -- Max Ernst Bimbo's Initiation 1931</p>
+<p>Public domain from Archive.org</p>
+
+<ul>
+<li>alphabet-conspiracy.mp4 -- Alphabet Conspiracy</li>
+<li>Bimbo's<em>Initiation</em>1931.mp4 -- Max Ernst Bimbo's Initiation 1931</li>
+</ul>
 
 <p>I think these might have some images from Evelyn Berg in it:</p>
 
@@ -355,7 +364,7 @@ to them :(</p>
 
 <p>Assume CC-BY-NC.</p>
 
-<p>Some ideas and inspiration are from Gregory Burlet:</p>
+<p>Many ideas and inspiration are from Gregory Burlet:</p>
 
 <p><a href="https://peerj.com/preprints/1193/">https://peerj.com/preprints/1193/</a></p>
 
@@ -397,364 +406,364 @@ tones anyways. A lot of the output is noise.</p>
 <h1>Rendered Examples</h1>
 
 <ul>
-<li><a href="armstrong-basic/armstrong-basic-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392098671.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392098671.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392098818.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392098818.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392099724.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1392099724.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-20secondBorys.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-20secondBorys.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic.avi-deeplearn.mkv.webm">armstrong-basic/armstrong-basic.avi-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-drone-sample.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-drone-sample.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-MVI_9117.mov-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-MVI_9117.mov-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-1.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-lines.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-lines.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-pulse.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-osborne-pulse.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="armstrong-basic/armstrong-basic-vtest.avi-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-vtest.avi-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392098671.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392098671.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392098818.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392099724.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-20secondBorys.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-drone-sample.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-drone-sample.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-MVI_9117.mov-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-etude-2.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-lines.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-lines.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-pulse.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-pulse.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="KUNGFURY/KUNGFURY-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/20secondBorys.mp4-deeplearn.mkv.webm">lines/20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/20secondBorys.mp4-granular-deeplearn.mkv.webm">lines/20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392098671.mkv-deeplearn.mkv.webm">lines/lines-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392098671.mkv-granular-deeplearn.mkv.webm">lines/lines-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392098818.mkv-deeplearn.mkv.webm">lines/lines-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392098818.mkv-granular-deeplearn.mkv.webm">lines/lines-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392099724.mkv-deeplearn.mkv.webm">lines/lines-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1392099724.mkv-granular-deeplearn.mkv.webm">lines/lines-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-belch-kitchen-sample.mp4-deeplearn.mkv.webm">lines/lines-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">lines/lines-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">lines/lines-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">lines/lines-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-drone-sample.mp4-deeplearn.mkv.webm">lines/lines-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-drone-sample.mp4-granular-deeplearn.mkv.webm">lines/lines-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-govid3-oldsketch.mkv-deeplearn.mkv.webm">lines/lines-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">lines/lines-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-MVI_9117.mov-deeplearn.mkv.webm">lines/lines-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-MVI_9117.mov-granular-deeplearn.mkv.webm">lines/lines-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-etude-1.mp4-deeplearn.mkv.webm">lines/lines-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-etude-2.mp4-deeplearn.mkv.webm">lines/lines-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-lines.mp4-deeplearn.mkv.webm">lines/lines-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-lines.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">lines/lines-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-pulse.mp4-deeplearn.mkv.webm">lines/lines-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-pulse.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-spikey-mouth-loop.mkv-deeplearn.mkv.webm">lines/lines-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">lines/lines-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">lines/lines-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">lines/lines-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">lines/lines-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines/lines-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">lines/lines-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392098671.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392098671.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392098818.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392098818.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392099724.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1392099724.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-20secondBorys.mp4-deeplearn.mkv.webm">lines-small/lines-small-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-20secondBorys.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-alphabet-conspiracy.mp4-deeplearn.mkv.webm">lines-small/lines-small-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">lines-small/lines-small-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-drone-sample.mp4-deeplearn.mkv.webm">lines-small/lines-small-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-drone-sample.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-govid3-oldsketch.mkv-deeplearn.mkv.webm">lines-small/lines-small-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-MVI_9117.mov-deeplearn.mkv.webm">lines-small/lines-small-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-MVI_9117.mov-granular-deeplearn.mkv.webm">lines-small/lines-small-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-etude-1.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-etude-2.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-lines.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-pulse.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-pulse.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-spikey-mouth-loop.mkv-deeplearn.mkv.webm">lines-small/lines-small-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="lines-small/lines-small-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392098671.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392098671.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392098818.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392098818.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392099724.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1392099724.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-20secondBorys.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-20secondBorys.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-drone-sample.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-drone-sample.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-MVI_9117.mov-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-lines.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="osborne-combined-big/osborne-combined-big-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392098671.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392098671.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392098818.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392098818.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392099724.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1392099724.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-20secondBorys.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping.deeplearn.mov.webm">ramshackletyping/ramshackletyping.deeplearn.mov.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-drone-sample.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-drone-sample.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping.mov.webm">ramshackletyping/ramshackletyping.mov.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-MVI_9117.mov-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-MVI_9117.mov-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-etude-1.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-lines.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-lines.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-pulse.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-pulse.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="ramshackletyping/ramshackletyping-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-MVI_9117.mov-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-MVI_9117.mov-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-seeing-a-sound-shallow-MVI_9117.mov-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-seeing-a-sound-shallow-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
-<li><a href="seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392098671.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392098671.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392098818.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392098818.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392099724.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1392099724.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-20secondBorys.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-20secondBorys.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic.avi-deeplearn.mkv.webm">armstrong-basic/armstrong-basic.avi-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic.avi.webm">armstrong-basic/armstrong-basic.avi.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-drone-sample.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-drone-sample.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-MVI_9117.mov-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-MVI_9117.mov-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-1.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-lines.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-lines.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-pulse.mp4-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-osborne-pulse.mp4-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic-vtest.avi-deeplearn.mkv.webm">armstrong-basic/armstrong-basic-vtest.avi-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392098671.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392098671.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392098818.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392099724.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-20secondBorys.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-drone-sample.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-drone-sample.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-MVI_9117.mov-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-etude-2.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-lines.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-lines.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-pulse.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-pulse.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/KUNGFURY/KUNGFURY-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">KUNGFURY/KUNGFURY-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/20secondBorys.mp4-deeplearn.mkv.webm">lines/20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/20secondBorys.mp4-granular-deeplearn.mkv.webm">lines/20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392098671.mkv-deeplearn.mkv.webm">lines/lines-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392098671.mkv-granular-deeplearn.mkv.webm">lines/lines-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392098818.mkv-deeplearn.mkv.webm">lines/lines-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392098818.mkv-granular-deeplearn.mkv.webm">lines/lines-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392099724.mkv-deeplearn.mkv.webm">lines/lines-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1392099724.mkv-granular-deeplearn.mkv.webm">lines/lines-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines/lines-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-belch-kitchen-sample.mp4-deeplearn.mkv.webm">lines/lines-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">lines/lines-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">lines/lines-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">lines/lines-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-drone-sample.mp4-deeplearn.mkv.webm">lines/lines-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-drone-sample.mp4-granular-deeplearn.mkv.webm">lines/lines-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-govid3-oldsketch.mkv-deeplearn.mkv.webm">lines/lines-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">lines/lines-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-MVI_9117.mov-deeplearn.mkv.webm">lines/lines-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-MVI_9117.mov-granular-deeplearn.mkv.webm">lines/lines-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-etude-1.mp4-deeplearn.mkv.webm">lines/lines-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-etude-2.mp4-deeplearn.mkv.webm">lines/lines-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-lines.mp4-deeplearn.mkv.webm">lines/lines-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-lines.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">lines/lines-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-pulse.mp4-deeplearn.mkv.webm">lines/lines-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-pulse.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines/lines-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">lines/lines-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-spikey-mouth-loop.mkv-deeplearn.mkv.webm">lines/lines-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">lines/lines-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">lines/lines-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">lines/lines-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">lines/lines-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines/lines-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">lines/lines-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392098671.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392098671.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392098818.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392098818.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392099724.mkv-deeplearn.mkv.webm">lines-small/lines-small-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1392099724.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-20secondBorys.mp4-deeplearn.mkv.webm">lines-small/lines-small-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-20secondBorys.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-alphabet-conspiracy.mp4-deeplearn.mkv.webm">lines-small/lines-small-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">lines-small/lines-small-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-drone-sample.mp4-deeplearn.mkv.webm">lines-small/lines-small-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-drone-sample.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-govid3-oldsketch.mkv-deeplearn.mkv.webm">lines-small/lines-small-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-MVI_9117.mov-deeplearn.mkv.webm">lines-small/lines-small-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-MVI_9117.mov-granular-deeplearn.mkv.webm">lines-small/lines-small-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-etude-1.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-etude-2.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-lines.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-pulse.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-pulse.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm">lines-small/lines-small-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">lines-small/lines-small-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-spikey-mouth-loop.mkv-deeplearn.mkv.webm">lines-small/lines-small-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/lines-small/lines-small-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">lines-small/lines-small-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392098671.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392098671.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392098818.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392098818.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392099724.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1392099724.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-20secondBorys.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-20secondBorys.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-drone-sample.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-drone-sample.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-MVI_9117.mov-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-lines.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">osborne-combined-big/osborne-combined-big-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392098671.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392098671.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392098818.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392098818.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392099724.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1392099724.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-20secondBorys.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping.deeplearn.mov.webm">ramshackletyping/ramshackletyping.deeplearn.mov.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-drone-sample.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-drone-sample.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping.mov.webm">ramshackletyping/ramshackletyping.mov.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-MVI_9117.mov-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-MVI_9117.mov-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-etude-1.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-lines.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-lines.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-pulse.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-pulse.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-ramshackletyping.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/ramshackletyping/ramshackletyping-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">ramshackletyping/ramshackletyping-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-pulse.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-deeper/seeing-a-sound-deeper-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-deeper/seeing-a-sound-deeper-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud_barking_and_guitar.1397370485.10527-out.15-loud_barking_and_guitar.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-015-loud<em>barking</em>and<em>guitar.1397370485.10527-out.15-loud</em>barking<em>and</em>guitar.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-114-tones.1397368837.20976-out.114-tones.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098671.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392098818.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1392099724.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408297309.27876-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-1408304868.8993-out.caffeine.wav.audio.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-20secondBorys.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-alphabet-conspiracy.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-belch-kitchen-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's_Initiation_1931.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's<em>Initiation</em>1931.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's_Initiation_1931.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-Bimbo's<em>Initiation</em>1931.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-drone-sample.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-govid3-oldsketch.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-MVI_9117.mov-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-MVI_9117.mov-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-1.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-etude-2.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-lines.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-ode-to-jimmie.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-osborne-seeing-sound.mp4-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-seeing-a-sound-shallow-MVI_9117.mov-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-seeing-a-sound-shallow-MVI_9117.mov-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-spikey-mouth-loop.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130404_003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130404_003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130404</em>003435.mp4.1384674117.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130531_132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-deeplearn.mkv.webm</a></li>
+<li><a href="https://archive.org/download/DeepLearningBitmaptoPCM/seeing-a-sound-shallow/seeing-a-sound-shallow-VID_20130531_132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm">seeing-a-sound-shallow/seeing-a-sound-shallow-VID<em>20130531</em>132327.mp4.1384676233.corpus.mkv-granular-deeplearn.mkv.webm</a></li>
 </ul>
 
 </body>
