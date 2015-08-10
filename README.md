@@ -55,9 +55,9 @@ that you are free to play with.
   [armstrong-basic/armstrong-basic.avi.webm](https://archive.org/download/DeepLearningBitmaptoPCM/armstrong-basic/armstrong-basic.avi.webm)
   or [youtube](https://www.youtube.com/watch?v=PWvUetfc8Ss).
   Network 4096 -> 1000 -> 735
-* lines-small - lines for clarinet by Jon Osborne a local Edmonton
+* lines-small - lines for clarinet by John Osborne a local Edmonton
   animator. Network 4096 -> 1000 -> 735. See [vimeo](https://vimeo.com/33085567)
-* osborne-combined-big - trained off of a larger compilation of Jon Osborne videos:
+* osborne-combined-big - trained off of a larger compilation of John Osborne videos:
   * [Seeing a sound quickly on vimeo](https://vimeo.com/132365424)
   * [Pulse on vimeo](https://vimeo.com/115228257)
   * [Ode to Jimi](https://vimeo.com/113761092)
@@ -65,11 +65,11 @@ that you are free to play with.
 * seeing-a-sound-shallow trained from [Seeing a sound quickly](https://vimeo.com/132365424)
 * KUNGFURY -- Trained on KUNG FURY the movie. 4096 -> 2000 -> 1500 ->
   1000 -> 735 . See [kungfury.com](http://www.kungfury.com/) and [youtube](https://www.youtube.com/watch?v=bS5P_LAqiVg)
-* lines - - lines for clarinet by Jon Osborne. See
+* lines - - lines for clarinet by John Osborne. See
   [vimeo](https://vimeo.com/33085567) . 4096 -> 1000 -> 1000 -> 1000 -> 735
 * ramshackletyping. Trained on a video I shot of the Olm? Typing.  Network 4096 -> 1000 -> 735
 * seeing-a-sound-deeper from Seeing a sound quickly
-  [vimeo](https://vimeo.com/132365424) by Jon Osborne.
+  [vimeo](https://vimeo.com/132365424) by John Osborne.
   Network 4096 -> 1000 -> 1000 -> 1000 -> 735
 
 Observations
@@ -144,7 +144,7 @@ Perhaps more data and deeper networks are much better?
 Lines and lines-small
 ---------------------
 
-[Lines for clarinet by Jon Osborne](https://vimeo.com/33085567)
+[Lines for clarinet by John Osborne](https://vimeo.com/33085567)
 
 Both do quite well trained on themselves:
 
@@ -164,7 +164,7 @@ Osborne-combined-big
 --------------------
 
 This dataset was a 15 minute long concatenation of some of the works
-of Jon Osborne. The results tend to sound a lot like the other
+of John Osborne. The results tend to sound a lot like the other
 networks.
 
 * [Example](https://archive.org/download/DeepLearningBitmaptoPCM/osborne-combined-big/osborne-combined-big-belch-kitchen-sample.mp4-deeplearn.mkv.webm)
@@ -272,7 +272,7 @@ representations might be more appropriate.
 Attribution
 ===========
 
-Jon Osborne is a local animator who I have been working with. His
+John Osborne is a local animator who I have been working with. His
 animation is great, but I'm not sure he likes any of the sounds I put
 to them :(
 
@@ -282,7 +282,7 @@ to them :(
 * osborne-pulse -- taken from [Pulse](https://vimeo.com/115228257)
 * osborne-seeing-sound -- taken from [Seeing a sound quickly](https://vimeo.com/132365424)
 
-These videos are (C) Jon Osborne -- assume similar rules to CC-BY-NC-ND
+These videos are (C) John Osborne -- assume similar rules to CC-BY-NC-ND
 
 Public domain images from Archive.org
 
