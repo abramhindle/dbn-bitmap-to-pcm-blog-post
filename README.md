@@ -1,8 +1,8 @@
 Deep Learning Bitmaps to PCM, Audio fun with deep belief networks
 =================================================================
 
-* [Github Repo](https://archive.org/details/DeepLearningBitmaptoPCM)
-* [Github Repo of this post](https://archive.org/details/DeepLearningBitmaptoPCM)
+* [Archive.org Repo](https://archive.org/details/DeepLearningBitmaptoPCM)
+* [Github Repo of this post](https://github.com/abramhindle/dbn-bitmap-to-pcm-blog-post)
 
 Can we learn from video frames to produce audio? Our training set can
 be synchronized audio and video, whereby we train a deep belief
@@ -14,7 +14,7 @@ and try an idea I had with deep learning. Prior authors had relied on
 relatively simple features or reduced representations of data, such as
 re-sizing a bitmap or down-sampling audio, and used that raw data as
 features instead of more complicated summaries. Gregory used short
-time fourier transforms (STFTs) to describe the input audio. I decided
+time Fourier transforms (STFTs) to describe the input audio. I decided
 not to use audio as input, I wanted to associate video frame with
 audio.
 
@@ -52,25 +52,24 @@ that you are free to play with.
 * armstrong-basic - This is a brain trained off of a video of John
   Armstrong et al. playing rock music with a theremin. See
   [armstrong-basic/armstrong-basic.avi.webm](armstrong-basic/armstrong-basic.avi.webm)
-  or https://www.youtube.com/watch?v=PWvUetfc8Ss.
+  or [youtube](https://www.youtube.com/watch?v=PWvUetfc8Ss).
   Network 4096 -> 1000 -> 735
 * lines-small - lines for clarinet by Jon Osborne a local Edmonton
-  animator. Network 4096 -> 1000 -> 735. See https://vimeo.com/33085567
+  animator. Network 4096 -> 1000 -> 735. See [vimeo](https://vimeo.com/33085567)
 * osborne-combined-big - trained off of a larger compilation of Jon
   Osborne videos:
-  * Seeing a sound quickly https://vimeo.com/132365424
-  * Pulse https://vimeo.com/115228257
-  * Ode to Jimi https://vimeo.com/113761092
-  * Lines for Clarinet https://vimeo.com/33085567    
-* seeing-a-sound-shallow trained from Seeing a sound quickly
-  https://vimeo.com/132365424
+  * [Seeing a sound quickly on vimeo](https://vimeo.com/132365424)
+  * [Pulse on vimeo](https://vimeo.com/115228257)
+  * [Ode to Jimi](https://vimeo.com/113761092)
+  * [Lines for Clarinet](https://vimeo.com/33085567)    
+* seeing-a-sound-shallow trained from [Seeing a sound quickly](https://vimeo.com/132365424)
 * KUNGFURY -- Trained on KUNG FURY the movie. 4096 -> 2000 -> 1500 ->
-  1000 -> 735 . See http://www.kungfury.com/ and https://www.youtube.com/watch?v=bS5P_LAqiVg
+  1000 -> 735 . See [kungfury.com](http://www.kungfury.com/) and [youtube](https://www.youtube.com/watch?v=bS5P_LAqiVg)
 * lines - - lines for clarinet by Jon Osborne. See
-  https://vimeo.com/33085567 . 4096 -> 1000 -> 1000 -> 1000 -> 735
+  [vimeo](https://vimeo.com/33085567) . 4096 -> 1000 -> 1000 -> 1000 -> 735
 * ramshackletyping. Trained on a video I shot of the Olm? Typing.  Network 4096 -> 1000 -> 735
 * seeing-a-sound-deeper from Seeing a sound quickly
-  https://vimeo.com/132365424 by Jon Osborne.
+  [vimeo](https://vimeo.com/132365424) by Jon Osborne.
   Network 4096 -> 1000 -> 1000 -> 1000 -> 735
 
 Observations
@@ -97,7 +96,7 @@ rendered examples.
 Armstrong-basic
 ---------------
 
-Trained on   [armstrong-basic/armstrong-basic.avi.webm](armstrong-basic/armstrong-basic.avi.webm)   or https://www.youtube.com/watch?v=PWvUetfc8Ss. This is A   complicated scene filmed from a camera, not a lot visual difference.  This I think leads to really blaring output for unseen animations.
+Trained on   [armstrong-basic/armstrong-basic.avi.webm](armstrong-basic/armstrong-basic.avi.webm)   or [youtube](https://www.youtube.com/watch?v=PWvUetfc8Ss). This is A   complicated scene filmed from a camera, not a lot visual difference.  This I think leads to really blaring output for unseen animations.
 
 For Alphabet conspiracy raw sounds awful, but the granular synthesis
 seems to work with the talking xray.
@@ -118,7 +117,7 @@ I like the on-time response seen in the hand animation Ode to Jimi:
 Kung Fury
 ---------
 
-See http://www.kungfury.com/ and https://www.youtube.com/watch?v=bS5P_LAqiVg .
+See [kungfury.com](http://www.kungfury.com/) and [youtube](https://www.youtube.com/watch?v=bS5P_LAqiVg) .
 
 A large dataset seems to produce more pleasant PCM output.
 
@@ -145,7 +144,7 @@ Perhaps more data and deeper networks are much better?
 Lines and lines-small
 ---------------------
 
-Lines for clarinet by Jon Osborne: https://vimeo.com/33085567
+[Lines for clarinet by Jon Osborne](https://vimeo.com/33085567)
 
 Both do quite well trained on themselves:
 
@@ -255,14 +254,20 @@ used.
 Conclusions
 ===========
 
-Briefly I'll conclude, without prior context of prior
-frames or prior sound that was already output, the quality of the
-audio output is pretty low. Either we need way more data for training,
-which I don't want to spend time on, or we need to add more context to
-the frame. There's an inherent independence assumption: 1 frame of
-video induces 1 frame of audio. But consider that 1 guitar pluck
-induces an audible signal for a lot longer than the guitar pluck, so
-there's a slight problem.
+Briefly I'll conclude, without prior context of prior frames or prior
+sound that was already output, the quality of the audio output is
+pretty low. Either we need way more data for training, which I don't
+want to spend time on, or we need to add more context to the frame.
+There's an inherent independence assumption: 1 frame of video induces
+1 frame of audio. But consider that 1 guitar pluck induces an audible
+signal for a lot longer than the guitar pluck, so there's a slight
+problem.
+
+Yet what this shows is that you can produce associations even if it is
+slightly overfit and they can have some musical value.
+
+We do not recommend generating raw PCM data, intermediate
+representations might be more appropriate.
 
 Attribution
 ===========
@@ -271,12 +276,11 @@ Jon Osborne is a local animator who I have been working with. His
 animation is great, but I'm not sure he likes any of the sounds I put
 to them :(
 
-* osborne-lines taken from Lines for Clarinet https://vimeo.com/33085567
-* osborne-etude-1 and osborne-etude-2 taken from Etudes https://vimeo.com/32493387
-* osborne ode-to-jimmie taken from Ode to Jimi https://vimeo.com/113761092
-* osborne-pulse -- taken from Pulse https://vimeo.com/115228257
-* osborne-seeing-sound -- taken from Seeing a sound quickly
-  https://vimeo.com/132365424
+* osborne-lines taken from [Lines for Clarinet](https://vimeo.com/33085567)
+* osborne-etude-1 and osborne-etude-2 taken from [Etudes](https://vimeo.com/32493387)
+* osborne ode-to-jimmie taken from [Ode to Jimi](https://vimeo.com/113761092)
+* osborne-pulse -- taken from [Pulse](https://vimeo.com/115228257)
+* osborne-seeing-sound -- taken from [Seeing a sound quickly](https://vimeo.com/132365424)
 
 These videos are (C) Jon Osborne -- assume similar rules to CC-BY-NC-ND
 
@@ -315,11 +319,11 @@ Assume CC-BY-NC.
 
 Some ideas and inspiration are from Gregory Burlet:
 
-https://peerj.com/preprints/1193/
+[https://peerj.com/preprints/1193/](https://peerj.com/preprints/1193/)
 
 Burlet G, Hindle A. (2015) Isolated instrument transcription using a
 deep belief network. PeerJ PrePrints 3:e1455
-https://dx.doi.org/10.7287/peerj.preprints.1193v1
+[https://dx.doi.org/10.7287/peerj.preprints.1193v1](https://dx.doi.org/10.7287/peerj.preprints.1193v1)
 
 How to use this stuff
 =====================
@@ -345,7 +349,8 @@ tones anyways. A lot of the output is noise.
 
 Latest source code should be here:
 
-https://github.com/abramhindle/dbn-bitmap-to-pcm
+* [https://github.com/abramhindle/dbn-bitmap-to-pcm](https://github.com/abramhindle/dbn-bitmap-to-pcm)
+* [Github Repo of this post](https://github.com/abramhindle/dbn-bitmap-to-pcm-blog-post)
 
 Assume GPL3.0 license on all source code.
 
