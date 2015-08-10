@@ -42,6 +42,9 @@ were simple 4096 inputs -> 1000 units -> 735 outputs. Some were more
 complicated such as 4096 -> 1000 -> 1000 -> 1000 -> 735 or 4096 ->
 2048 -> 1000 -> 1000 -> 735.
 
+Training Data
+-------------
+
 In this repository I have provided numerous video examples and brains
 that you are free to play with.
 
@@ -58,16 +61,52 @@ that you are free to play with.
   * Pulse https://vimeo.com/115228257
   * Ode to Jimi https://vimeo.com/113761092
   * Lines for Clarinet https://vimeo.com/33085567    
-* seeing-a-sound-shallow
-* KUNGFURY
-* lines
-* ramshackletyping
-* seeing-a-sound-deeper
-
-
+* seeing-a-sound-shallow trained from Seeing a sound quickly
+  https://vimeo.com/132365424
+* KUNGFURY -- Trained on KUNG FURY the movie. 4096 -> 2000 -> 1500 ->
+  1000 -> 735
+* lines - - lines for clarinet by Jon Osborne. See
+  https://vimeo.com/33085567 . 4096 -> 1000 -> 1000 -> 1000 -> 735
+* ramshackletyping. Trained on a video I shot of the Olm? Typing.  Network 4096 -> 1000 -> 735
+* seeing-a-sound-deeper from Seeing a sound quickly
+  https://vimeo.com/132365424 by Jon Osborne.
+  Network 4096 -> 1000 -> 1000 -> 1000 -> 735
 
 Observations
 ------------
+
+It produces audio! The audio isn't great. The audio often responds to
+action on the screen. The audio doesn't respond to theme or content.
+There is no memory. There is often repeating annoying noises.
+
+It took between 2000 and 7000 minutes to train each brain on a CPU.
+Kung Fury wasn't finished training by the time this was written.
+
+The audio is awful, there's often 30hz harmonics throughout the audio
+due to the cutting off of frame sounds and no windowing. Windowing can
+improve the situation but still induces 30hz noise.
+
+I used CSound to reinterpret the sound as granular synthesis, that
+worked better but lost it's timelyness.
+
+Suggestions
+===========
+
+Every training set should include 30 seconds or so of black screen and
+white screens with silent audio. That way the system would keep black
+screens quieter how we expect them.
+
+Use history, this is a very stateless approach. An RNN might be a
+great idea.
+
+Is PCM the most effecient representation? If I want to produce
+sonically interesting perhaps I might do better in frequency space
+(STFT) or a vocoder space.
+
+Color and past frames were not included. Furthermore no analysis of
+the frames were used either. Perhaps an Eigen-faces style of operation
+would work.
+
 
 Conclusions
 ===========
@@ -128,7 +167,15 @@ I think these might have some images from Evelyn Berg in it:
 * 1392098671.mkv
 * 1392099724.mkv
 
-Assume CC-BY-NC
+Assume CC-BY-NC.
+
+Some ideas and inspiration are from Gregory Burlet:
+
+https://peerj.com/preprints/1193/
+
+Burlet G, Hindle A. (2015) Isolated instrument transcription using a
+deep belief network. PeerJ PrePrints 3:e1455
+https://dx.doi.org/10.7287/peerj.preprints.1193v1
 
 How to use this stuff
 =====================
